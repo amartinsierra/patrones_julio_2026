@@ -7,7 +7,7 @@ import decorador.CertificadoDecorador;
 import decorador.TutoriaDecorador;
 
 public class FormacionService {
-	public Curso crearCurso(String nombre, double precio) {
+	public ElementoFormacion crearCurso(String nombre, double precio) {
 		return new Curso(nombre, precio);
 	}
 	public ElementoFormacion crearCursoTutoria(String nombre, double precio) {

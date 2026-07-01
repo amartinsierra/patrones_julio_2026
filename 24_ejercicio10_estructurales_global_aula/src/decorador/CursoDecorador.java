@@ -1,11 +1,11 @@
 package decorador;
 
-import composite.CursoComponente;
+import composite.ElementoFormacion;
 
-public abstract class CursoDecorador implements CursoComponente {
-    protected final CursoComponente curso;
+public abstract class CursoDecorador implements ElementoFormacion {
+    protected final ElementoFormacion curso;
 
-    public CursoDecorador(CursoComponente curso) {
+    public CursoDecorador(ElementoFormacion curso) {
         this.curso = curso;
     }
 

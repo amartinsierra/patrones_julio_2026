@@ -2,7 +2,7 @@ package composite;
 
 import flyweight.Aula;
 
-public class Curso implements CursoComponente {
+public class Curso implements ElementoFormacion {
     private final String nombre;
     private final double precio;
     private Aula aula;

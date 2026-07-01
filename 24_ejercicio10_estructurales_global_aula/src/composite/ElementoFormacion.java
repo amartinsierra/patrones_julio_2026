@@ -1,6 +1,6 @@
 package composite;
 
-public interface CursoComponente {
+public interface ElementoFormacion {
     void mostrar();
     double getPrecio();
 }

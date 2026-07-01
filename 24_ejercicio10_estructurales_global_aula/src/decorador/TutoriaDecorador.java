@@ -1,9 +1,9 @@
 package decorador;
 
-import composite.CursoComponente;
+import composite.ElementoFormacion;
 
 public class TutoriaDecorador extends CursoDecorador {
-    public TutoriaDecorador(CursoComponente curso) {
+    public TutoriaDecorador(ElementoFormacion curso) {
         super(curso);
     }
 

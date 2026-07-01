@@ -1,9 +1,9 @@
 package decorador;
 
-import composite.CursoComponente;
+import composite.ElementoFormacion;
 
 public class CertificadoDecorador extends CursoDecorador {
-    public CertificadoDecorador(CursoComponente curso) {
+    public CertificadoDecorador(ElementoFormacion curso) {
         super(curso);
     }
 
